@@ -14,6 +14,7 @@
 		CD068A171C12620D001E1154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD068A151C12620D001E1154 /* LaunchScreen.storyboard */; };
 		CD068A221C12620D001E1154 /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068A211C12620D001E1154 /* TipsTests.swift */; };
 		CD068A2D1C12620D001E1154 /* TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068A2C1C12620D001E1154 /* TipsUITests.swift */; };
+		CD068A3B1C1275C0001E1154 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068A3A1C1275C0001E1154 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD068A281C12620D001E1154 /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD068A2C1C12620D001E1154 /* TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUITests.swift; sourceTree = "<group>"; };
 		CD068A2E1C12620D001E1154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD068A3A1C1275C0001E1154 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CD068A0C1C12620D001E1154 /* AppDelegate.swift */,
 				CD068A0E1C12620D001E1154 /* ViewController.swift */,
 				CD068A101C12620D001E1154 /* Main.storyboard */,
+				CD068A3A1C1275C0001E1154 /* SettingsViewController.swift */,
 				CD068A131C12620D001E1154 /* Assets.xcassets */,
 				CD068A151C12620D001E1154 /* LaunchScreen.storyboard */,
 				CD068A181C12620D001E1154 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					CD068A081C12620D001E1154 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZMEW8LE23V;
 					};
 					CD068A1C1C12620D001E1154 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -258,6 +262,7 @@
 			files = (
 				CD068A0F1C12620D001E1154 /* ViewController.swift in Sources */,
 				CD068A0D1C12620D001E1154 /* AppDelegate.swift in Sources */,
+				CD068A3B1C1275C0001E1154 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Gary-Ghayrat.Tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Gary-Ghayrat.Tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
