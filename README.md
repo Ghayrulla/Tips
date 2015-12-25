@@ -17,11 +17,11 @@ The following **optional** features are implemented:
 * [No] UI animations
 * [Yes] Remembering the bill amount across app restarts (if <10mins)
 * [No] Using locale-specific currency and currency thousands separators.
-* [No] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [Yes] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [No] List anything else that you can get done to improve the app functionality!
+- [Yes] I designed a simple logo for apps apperance in Settings, Spotlight and Home screen.
 
 ## Video Walkthrough 
 
@@ -32,8 +32,6 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-I made this in a hurry because of the finals. I'll try to improve the app after the finals(my last test is on 15th...).
 
 ## License
 
