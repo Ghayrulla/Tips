@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [Yes] I designed a simple logo for apps apperance in Settings, Spotlight and Home screen.
+- [Yes] I designed a simple logo for app's apperance in Settings, Spotlight and Home screen.
 
 ## Video Walkthrough 
 
